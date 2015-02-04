@@ -8,9 +8,13 @@
 </head>
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
  aaaaa
 =======
 123123123123123123123123123123213123
 >>>>>>> branch 'master' of https://github.com/woojukim/Teamplace.git
+=======
+123123123123123123123123123123213123
+>>>>>>> refs/remotes/origin/master
 </body>
 </html>
