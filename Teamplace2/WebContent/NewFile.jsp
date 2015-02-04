@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
+<<<<<<< HEAD
  aaaaa
+=======
 123123123123123123123123123123213123
+>>>>>>> branch 'master' of https://github.com/woojukim/Teamplace.git
 </body>
 </html>
