@@ -9,6 +9,7 @@
 <body>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  aaaaa
 =======
 123123123123123123123123123123213123
@@ -16,5 +17,8 @@
 =======
 123123123123123123123123123123213123
 >>>>>>> refs/remotes/origin/master
+=======
+123123123123123123123123123123213123
+>>>>>>> branch 'master' of https://github.com/woojukim/Teamplace.git
 </body>
 </html>
