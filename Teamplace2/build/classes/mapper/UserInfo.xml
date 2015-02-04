@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+<mapper namespace="UserInfo">
+
+	<insert id="insert" parameterType="UserInfo">
+		insert into userinfo values (#{useremail}, #{userpassword}, #{usernickname})
+	</insert>
+
+	<update id="update" parameterType="UserInfo">
+		update userinfo 
+		set userpassword=#{userpassword}, usernickname=#{usernickname}
+		where useremail=#{useremail}
+	</update>
+
+	<delete id="delete" parameterType="String">
+		delete 
+		from userinfo 
+		where useremail=#{useremail}
+	</delete>
+
+	<select id="select" parameterType="String" resultType="UserInfo">
+		select useremail, userpassword, usernickname
+		from userinfo
+		where useremail=#{useremail}
+	</select>
+	
+	<select id="selectList" resultType="UserInfo">
+		select useremail, userpassword, usernickname 
+		from userinfo
+	</select>
+	
+	<resultMap type="UserInfo" id="selectUserInfoMap">
+	  <id column="useremail" property="useremail" /> 
+	  <result column="userpassword" property="userpassword" /> 
+	  <result column="usernickname" property="usernickname" /> 
+	</resultMap>
+</mapper>
